@@ -9,6 +9,10 @@ This project investigates how people describe fatigue, frustration, and disengag
 
 The research design also describes a completed app-store review phase and a Reddit extension. This repository focuses on the Reddit research pipeline; it does **not** include the full app-store review dataset.
 
+## Research findings
+
+The supplied archived run includes an automated findings report and methods appendix. A carefully qualified summary, including an unresolved difference between reported thread counts, is available in [Research Findings](docs/RESEARCH_FINDINGS.md). These generated results are not independently validated.
+
 ## Research questions
 
 - What recurring themes and sentiments appear in calorie-tracking discussions?
