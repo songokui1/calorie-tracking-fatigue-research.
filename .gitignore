@@ -1,0 +1,21 @@
+# Local credentials and environments
+.study.env
+.env
+.env.*
+!.env.example
+!.study.env.example
+.venv/
+.test-venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.pytest_cache/
+# Private/raw Reddit data and research outputs
+data/*.xlsx
+data/*.csv
+data/*.json
+study_runs/
+.smoke-test/
+tmp_single_thread_test/
+publication_llm_outputs*/
