@@ -23,10 +23,10 @@ The supplied archived run includes an automated findings report and methods appe
 
 ## Workflow
 
-1. **Collect:** `script.py` uses the Reddit API through PRAW to collect tracking-related posts and comments from selected communities, with a configurable rolling window and per-community/year sample cap.
-2. **Baseline analysis:** `Pipeline.py` uses sentence-transformer embeddings, semantic similarity, and TextBlob sentiment to explore fatigue and support signals.
-3. **Structured qualitative analysis:** `llm_publication_analysis.py` assembles thread packets, performs schema-constrained first-pass coding and second-pass auditing, and creates analysis tables and report materials using the OpenAI API.
-4. **Reproducibility:** `run_full_study.sh` orchestrates the workflow and records outputs and run metadata. `run_smoke_test.sh` offers a small-scale test.
+1. **Collect:** script.py uses the Reddit API through PRAW to collect tracking-related posts and comments from selected communities, with a configurable rolling window and per-community/year sample cap.
+2. **Baseline analysis:** Pipeline.py uses sentence-transformer embeddings, semantic similarity, and TextBlob sentiment to explore fatigue and support signals.
+3. **Structured qualitative analysis:** llm_publication_analysis.py assembles thread packets, performs schema-constrained first-pass coding and second-pass auditing, and creates analysis tables and report materials using the OpenAI API.
+4. **Reproducibility:** run_full_study.sh orchestrates the workflow and records outputs and run metadata. run_smoke_test.sh offers a small-scale test.
 
 **Important:** LLM-generated codes and narratives require human review. A second model pass is not independent human inter-rater reliability, and semantic similarity scores are exploratory proxies rather than validated clinical measures.
 
@@ -34,11 +34,11 @@ The supplied archived run includes an automated findings report and methods appe
 
 | File | Purpose |
 | --- | --- |
-| `script.py` | Reddit collection and balanced sampling |
-| `Pipeline.py` | Baseline semantic and sentiment analysis |
-| `llm_publication_analysis.py` | Structured two-pass LLM-assisted coding and synthesis |
-| `run_full_study.sh` | End-to-end orchestration |
-| `run_smoke_test.sh` | Small-scale collection/analysis check |
+| script.py | Reddit collection and balanced sampling |
+| Pipeline.py | Baseline semantic and sentiment analysis |
+| llm_publication_analysis.py | Structured two-pass LLM-assisted coding and synthesis |
+| run_full_study.sh | End-to-end orchestration |
+| run_smoke_test.sh | Small-scale collection/analysis check |
 | `.study.env.example` | Example configuration (never commit real API credentials) |
 | `STUDENT_PAPER_WRITING_GUIDE.md` | Research paper preparation guidance |
 | `docs/Study_Design.pdf` | Research plan |
