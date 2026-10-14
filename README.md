@@ -2,8 +2,6 @@
 
 **Exploratory digital health and human–computer interaction (HCI) research**
 
-**Researcher:** Onive Zebal  
-**Research supervisor and collaborator:** Wordh Ul Hasan
 
 ## Overview
 
@@ -67,9 +65,7 @@ Raw Reddit exports may contain usernames, health-related narratives, and quotati
 
 This project studies self-reported discourse, not clinical outcomes or directly observed app retention. Its findings should not be interpreted as causal or representative of all calorie-tracking users.
 
-## Attribution
 
-Research by **Onive Zebal**, in collaboration with and under the supervision of **Wordh Ul Hasan**. Specific code and analysis contributions should be attributed according to the research team's records.
 
 ## Status
 
