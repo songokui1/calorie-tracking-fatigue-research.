@@ -74,3 +74,9 @@ This project studies self-reported discourse, not clinical outcomes or directly 
 ## Status
 
 Research code and documentation project. Reproducibility depends on API access, environment setup, and independent validation of outputs.
+
+## Rights and access
+
+**All rights reserved.** This public repository is for portfolio review, not a grant of permission to reuse, modify, or redistribute original content. See [LICENSE](LICENSE). Prior licensing grants, if any, may remain effective.
+
+Sensitive raw research data, credentials, and unpublished work should be kept in a separate private repository.
